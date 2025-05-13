@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.task-block {
+    width: 400px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    padding: 15px;
+    height: 175px;
+}
+
+.first-half {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    overflow: scroll;
+}
+
+.task-block h1 {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.un-check-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    background-color: transparent;
+}
+
+.check-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #075df6;
+    color: white;
+    border-style: none;
+}
+
+.task-descr h4 {
+    width: 300px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin-top: 6px;
+    color: #979797;
+}
+
+.check-title {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.hr-task-line {
+    border-width: 1.4px;
+    border-style: solid;
+}
+
+.second-half {
+    font-family: "Roboto Mono", monospace;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.delete-btn {
+    cursor: pointer;
+    font-size: 25px;
+    background-color: transparent;
+    border-style: none;
+}

@@ -1,0 +1,7 @@
+.tab-active {
+    border-color: black;
+}
+
+.tab-inactive {
+    border-color: #bbbdbf;
+}
