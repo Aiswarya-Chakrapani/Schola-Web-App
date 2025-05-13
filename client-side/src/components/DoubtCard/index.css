@@ -1,0 +1,21 @@
+.p-edit {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.p-edit-solution {
+    font-style: italic;
+    color: green;
+}
+
+.reply-btn {
+    height: 40px;
+    width: 80px;
+    border-style: solid;
+    margin-left: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}

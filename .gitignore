@@ -1,2 +1,16 @@
+HEAD
 client-side/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore PDF files in temp
+temp/*.pdf
+
+# General Mac system files
+.DS_Store
+
+
+
+04312dabcdb2498d7ec894f06cee97e2258a920f
 
