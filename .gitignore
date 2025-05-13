@@ -1,0 +1,12 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore PDF files in temp
+temp/*.pdf
+
+# General Mac system files
+.DS_Store
+
+
+
+
