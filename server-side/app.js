@@ -382,7 +382,8 @@ app.post('/chatbot', async (req, res) => {
 
       // Generate content (response) from the user prompt
       console.log("Generating content from the user prompt...");
-      const result = await model.generateContent([
+      const result = await mo
+      del.generateContent([
           {
               text: userPrompt,
           }
